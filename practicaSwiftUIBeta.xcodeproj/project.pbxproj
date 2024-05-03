@@ -14,6 +14,15 @@
 		1FAFE1082BE4D4CB005498C3 /* practicaSwiftUIBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1072BE4D4CB005498C3 /* practicaSwiftUIBetaTests.swift */; };
 		1FAFE1122BE4D4CB005498C3 /* practicaSwiftUIBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1112BE4D4CB005498C3 /* practicaSwiftUIBetaUITests.swift */; };
 		1FAFE1142BE4D4CB005498C3 /* practicaSwiftUIBetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1132BE4D4CB005498C3 /* practicaSwiftUIBetaUITestsLaunchTests.swift */; };
+		1FAFE1212BE4E0BD005498C3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1202BE4E0BD005498C3 /* ImageView.swift */; };
+		1FAFE1232BE4E570005498C3 /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1222BE4E570005498C3 /* IconsView.swift */; };
+		1FAFE1252BE4E89C005498C3 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1242BE4E89C005498C3 /* StateView.swift */; };
+		1FAFE1272BE4E9C4005498C3 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1262BE4E9C4005498C3 /* LabelView.swift */; };
+		1FAFE1492BE4FB79005498C3 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1482BE4FB79005498C3 /* LazyVGridView.swift */; };
+		1FAFE14B2BE53651005498C3 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14A2BE53651005498C3 /* FormView.swift */; };
+		1FAFE14D2BE5433F005498C3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14C2BE5433E005498C3 /* ListView.swift */; };
+		1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */; };
+		1FAFE1512BE54CF9005498C3 /* TabViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		1FAFE10D2BE4D4CB005498C3 /* practicaSwiftUIBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicaSwiftUIBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAFE1112BE4D4CB005498C3 /* practicaSwiftUIBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaSwiftUIBetaUITests.swift; sourceTree = "<group>"; };
 		1FAFE1132BE4D4CB005498C3 /* practicaSwiftUIBetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaSwiftUIBetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FAFE1202BE4E0BD005498C3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		1FAFE1222BE4E570005498C3 /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
+		1FAFE1242BE4E89C005498C3 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		1FAFE1262BE4E9C4005498C3 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		1FAFE1482BE4FB79005498C3 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
+		1FAFE14A2BE53651005498C3 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		1FAFE14C2BE5433E005498C3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView&Link.swift"; sourceTree = "<group>"; };
+		1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,15 @@
 			children = (
 				1FAFE0F62BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift */,
 				1FAFE0F82BE4D4C8005498C3 /* ContentView.swift */,
+				1FAFE1202BE4E0BD005498C3 /* ImageView.swift */,
+				1FAFE1222BE4E570005498C3 /* IconsView.swift */,
+				1FAFE1242BE4E89C005498C3 /* StateView.swift */,
+				1FAFE1262BE4E9C4005498C3 /* LabelView.swift */,
+				1FAFE1482BE4FB79005498C3 /* LazyVGridView.swift */,
+				1FAFE14A2BE53651005498C3 /* FormView.swift */,
+				1FAFE14C2BE5433E005498C3 /* ListView.swift */,
+				1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */,
+				1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */,
 				1FAFE0FA2BE4D4CA005498C3 /* Assets.xcassets */,
 				1FAFE0FC2BE4D4CA005498C3 /* Preview Content */,
 			);
@@ -257,8 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAFE1512BE54CF9005498C3 /* TabViewNavigation.swift in Sources */,
+				1FAFE14B2BE53651005498C3 /* FormView.swift in Sources */,
+				1FAFE1212BE4E0BD005498C3 /* ImageView.swift in Sources */,
+				1FAFE1492BE4FB79005498C3 /* LazyVGridView.swift in Sources */,
+				1FAFE1232BE4E570005498C3 /* IconsView.swift in Sources */,
+				1FAFE1252BE4E89C005498C3 /* StateView.swift in Sources */,
 				1FAFE0F92BE4D4C8005498C3 /* ContentView.swift in Sources */,
 				1FAFE0F72BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift in Sources */,
+				1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */,
+				1FAFE1272BE4E9C4005498C3 /* LabelView.swift in Sources */,
+				1FAFE14D2BE5433F005498C3 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
