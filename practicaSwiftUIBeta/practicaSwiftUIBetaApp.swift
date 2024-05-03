@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//Primera vista en aparecer
 @main
 struct practicaSwiftUIBetaApp: App {
     var body: some Scene {
