@@ -23,6 +23,9 @@
 		1FAFE14D2BE5433F005498C3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14C2BE5433E005498C3 /* ListView.swift */; };
 		1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */; };
 		1FAFE1512BE54CF9005498C3 /* TabViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */; };
+		1FDA25D72BE6AB40004A4F29 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25D62BE6AB40004A4F29 /* TextView.swift */; };
+		1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */; };
+		1FDA25DB2BE6BD44004A4F29 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		1FAFE14C2BE5433E005498C3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView&Link.swift"; sourceTree = "<group>"; };
 		1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewNavigation.swift; sourceTree = "<group>"; };
+		1FDA25D62BE6AB40004A4F29 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 				1FAFE0F82BE4D4C8005498C3 /* ContentView.swift */,
 				1FAFE1202BE4E0BD005498C3 /* ImageView.swift */,
 				1FAFE1222BE4E570005498C3 /* IconsView.swift */,
+				1FDA25D62BE6AB40004A4F29 /* TextView.swift */,
+				1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */,
+				1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */,
 				1FAFE1242BE4E89C005498C3 /* StateView.swift */,
 				1FAFE1262BE4E9C4005498C3 /* LabelView.swift */,
 				1FAFE1482BE4FB79005498C3 /* LazyVGridView.swift */,
@@ -293,6 +302,9 @@
 				1FAFE0F92BE4D4C8005498C3 /* ContentView.swift in Sources */,
 				1FAFE0F72BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift in Sources */,
 				1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */,
+				1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */,
+				1FDA25DB2BE6BD44004A4F29 /* TextfieldView.swift in Sources */,
+				1FDA25D72BE6AB40004A4F29 /* TextView.swift in Sources */,
 				1FAFE1272BE4E9C4005498C3 /* LabelView.swift in Sources */,
 				1FAFE14D2BE5433F005498C3 /* ListView.swift in Sources */,
 			);
