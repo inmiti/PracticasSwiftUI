@@ -1,0 +1,39 @@
+//
+//  FullscreenCoverView.swift
+//  practicaSwiftUIBeta
+//
+//  Created by ibautista on 6/5/24.
+//
+
+import SwiftUI
+
+struct FullscreenCoverView: View {
+    @State var isPresented: Bool = false
+    var body: some View {
+        // Otras formas de navegar a otras pantallas, este ocupa toda la pantalla.
+        VStack {
+            Text("View 1")
+                .padding()
+            Button("Ok") {
+                isPresented = true
+                
+            }
+        }
+        .fullScreenCover(isPresented: $isPresented, // propiedad, si es true muestra la pantalla
+                         onDismiss: {isPresented = false}, //Instrucciones para cuando se oculte la view 2
+                         content: { //Especificaremos la vista que queramos mostrar
+                            ZStack{
+                                Color.red.ignoresSafeArea()
+                                Button("Bienvenido!!!", action: {
+                                    isPresented = false
+                                })
+                            }
+        })
+    }
+}
+
+struct FullscreenCoverView_Previews: PreviewProvider {
+    static var previews: some View {
+        FullscreenCoverView()
+    }
+}

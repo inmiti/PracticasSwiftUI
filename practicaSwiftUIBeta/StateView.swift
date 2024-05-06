@@ -12,13 +12,13 @@ struct StateView: View {
     @State var counter: Int = 0
     
     var body: some View {
-        VStack {
+        VStack (spacing: 20) {
             Text("Counter \(counter)")
+                .font(.largeTitle)
             Button("Incrementar valor") {
                 self.counter += 1
             }
         }
-        
     }
 }
 
