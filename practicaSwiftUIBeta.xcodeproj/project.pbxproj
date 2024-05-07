@@ -26,6 +26,13 @@
 		1FDA25D72BE6AB40004A4F29 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25D62BE6AB40004A4F29 /* TextView.swift */; };
 		1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */; };
 		1FDA25DB2BE6BD44004A4F29 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */; };
+		1FDCD6B62BEA2DD500118821 /* EnviromentObjetctView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6B52BEA2DD500118821 /* EnviromentObjetctView.swift */; };
+		1FDCD6B82BEA32C000118821 /* EnviromentObjectView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6B72BEA32C000118821 /* EnviromentObjectView2.swift */; };
+		1FDCD6BA2BEA32E100118821 /* EnviromentObjectView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6B92BEA32E100118821 /* EnviromentObjectView3.swift */; };
+		1FDCD6C02BEA36C500118821 /* EnviromentObject2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6BD2BEA36C500118821 /* EnviromentObject2.swift */; };
+		1FDCD6C12BEA36C500118821 /* EnviromentObject3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6BE2BEA36C500118821 /* EnviromentObject3.swift */; };
+		1FDCD6C22BEA36C500118821 /* EnviromentObjetct1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6BF2BEA36C500118821 /* EnviromentObjetct1.swift */; };
+		1FDCD6C42BEA43EF00118821 /* AppStoragePropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD6C32BEA43EF00118821 /* AppStoragePropertyWrapper.swift */; };
 		1FE0B7702BE8D78D00E45895 /* TexteditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE0B76F2BE8D78D00E45895 /* TexteditorView.swift */; };
 		1FE0B7722BE8D99900E45895 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE0B7712BE8D99900E45895 /* DatePickerView.swift */; };
 		1FE0B7742BE8DD8C00E45895 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE0B7732BE8DD8C00E45895 /* ColorPickerView.swift */; };
@@ -86,6 +93,13 @@
 		1FDA25D62BE6AB40004A4F29 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
+		1FDCD6B52BEA2DD500118821 /* EnviromentObjetctView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentObjetctView.swift; sourceTree = "<group>"; };
+		1FDCD6B72BEA32C000118821 /* EnviromentObjectView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentObjectView2.swift; sourceTree = "<group>"; };
+		1FDCD6B92BEA32E100118821 /* EnviromentObjectView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentObjectView3.swift; sourceTree = "<group>"; };
+		1FDCD6BD2BEA36C500118821 /* EnviromentObject2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentObject2.swift; sourceTree = "<group>"; };
+		1FDCD6BE2BEA36C500118821 /* EnviromentObject3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentObject3.swift; sourceTree = "<group>"; };
+		1FDCD6BF2BEA36C500118821 /* EnviromentObjetct1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentObjetct1.swift; sourceTree = "<group>"; };
+		1FDCD6C32BEA43EF00118821 /* AppStoragePropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoragePropertyWrapper.swift; sourceTree = "<group>"; };
 		1FE0B76F2BE8D78D00E45895 /* TexteditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexteditorView.swift; sourceTree = "<group>"; };
 		1FE0B7712BE8D99900E45895 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		1FE0B7732BE8DD8C00E45895 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
@@ -186,6 +200,9 @@
 				1FE0B78B2BE93DC000E45895 /* TapGestureView.swift */,
 				1FE0B78D2BE93F9C00E45895 /* DragGestureView.swift */,
 				1FE0B78F2BE9431500E45895 /* ObservableObjectProp.swift */,
+				1FDCD6BB2BEA362E00118821 /* StateObject&ObservableObject */,
+				1FDCD6BC2BEA366800118821 /* EnviromentObject */,
+				1FDCD6C32BEA43EF00118821 /* AppStoragePropertyWrapper.swift */,
 				1FAFE0FA2BE4D4CA005498C3 /* Assets.xcassets */,
 				1FAFE0FC2BE4D4CA005498C3 /* Preview Content */,
 			);
@@ -215,6 +232,26 @@
 				1FAFE1132BE4D4CB005498C3 /* practicaSwiftUIBetaUITestsLaunchTests.swift */,
 			);
 			path = practicaSwiftUIBetaUITests;
+			sourceTree = "<group>";
+		};
+		1FDCD6BB2BEA362E00118821 /* StateObject&ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				1FDCD6B52BEA2DD500118821 /* EnviromentObjetctView.swift */,
+				1FDCD6B72BEA32C000118821 /* EnviromentObjectView2.swift */,
+				1FDCD6B92BEA32E100118821 /* EnviromentObjectView3.swift */,
+			);
+			path = "StateObject&ObservableObject";
+			sourceTree = "<group>";
+		};
+		1FDCD6BC2BEA366800118821 /* EnviromentObject */ = {
+			isa = PBXGroup;
+			children = (
+				1FDCD6BF2BEA36C500118821 /* EnviromentObjetct1.swift */,
+				1FDCD6BD2BEA36C500118821 /* EnviromentObject2.swift */,
+				1FDCD6BE2BEA36C500118821 /* EnviromentObject3.swift */,
+			);
+			path = EnviromentObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE0B7702BE8D78D00E45895 /* TexteditorView.swift in Sources */,
+				1FDCD6C02BEA36C500118821 /* EnviromentObject2.swift in Sources */,
 				1FE0B7822BE9306000E45895 /* FullscreenCoverView.swift in Sources */,
 				1FAFE1512BE54CF9005498C3 /* TabViewNavigation.swift in Sources */,
 				1FE0B78A2BE93B7C00E45895 /* ContentMenuView.swift in Sources */,
@@ -355,6 +393,7 @@
 				1FAFE14B2BE53651005498C3 /* FormView.swift in Sources */,
 				1FE0B7742BE8DD8C00E45895 /* ColorPickerView.swift in Sources */,
 				1FAFE1212BE4E0BD005498C3 /* ImageView.swift in Sources */,
+				1FDCD6BA2BEA32E100118821 /* EnviromentObjectView3.swift in Sources */,
 				1FAFE1492BE4FB79005498C3 /* LazyVGridView.swift in Sources */,
 				1FAFE1232BE4E570005498C3 /* IconsView.swift in Sources */,
 				1FE0B7922BE950E300E45895 /* BindingPropertyWrapped.swift in Sources */,
@@ -368,13 +407,18 @@
 				1FE0B77E2BE92BAC00E45895 /* StepperView.swift in Sources */,
 				1FAFE0F72BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift in Sources */,
 				1FE0B77C2BE92AC900E45895 /* ToggleView.swift in Sources */,
+				1FDCD6B62BEA2DD500118821 /* EnviromentObjetctView.swift in Sources */,
+				1FDCD6C12BEA36C500118821 /* EnviromentObject3.swift in Sources */,
 				1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */,
+				1FDCD6B82BEA32C000118821 /* EnviromentObjectView2.swift in Sources */,
 				1FE0B77A2BE8E09E00E45895 /* LinkView.swift in Sources */,
+				1FDCD6C42BEA43EF00118821 /* AppStoragePropertyWrapper.swift in Sources */,
 				1FE0B7902BE9431500E45895 /* ObservableObjectProp.swift in Sources */,
 				1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */,
 				1FE0B7862BE932C800E45895 /* AlertView.swift in Sources */,
 				1FE0B7882BE9377E00E45895 /* ActionSheetView.swift in Sources */,
 				1FDA25DB2BE6BD44004A4F29 /* TextfieldView.swift in Sources */,
+				1FDCD6C22BEA36C500118821 /* EnviromentObjetct1.swift in Sources */,
 				1FDA25D72BE6AB40004A4F29 /* TextView.swift in Sources */,
 				1FAFE1272BE4E9C4005498C3 /* LabelView.swift in Sources */,
 				1FAFE14D2BE5433F005498C3 /* ListView.swift in Sources */,

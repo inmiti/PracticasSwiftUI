@@ -11,7 +11,7 @@ import SwiftUI
 struct practicaSwiftUIBetaApp: App {
     var body: some Scene {
         WindowGroup {
-            DragGestureView()
+            AppStoragePropertyWrapper()
         }
     }
 }
