@@ -23,6 +23,9 @@
 		1FAFE14D2BE5433F005498C3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14C2BE5433E005498C3 /* ListView.swift */; };
 		1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */; };
 		1FAFE1512BE54CF9005498C3 /* TabViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */; };
+		1FCC7BF52BF4A463009069FD /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCC7BF42BF4A463009069FD /* PickerView.swift */; };
+		1FCC7BF72BF4B000009069FD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCC7BF62BF4B000009069FD /* MenuView.swift */; };
+		1FCC7BF92BF4B071009069FD /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCC7BF82BF4B071009069FD /* DisclosureGroupView.swift */; };
 		1FDA25D72BE6AB40004A4F29 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25D62BE6AB40004A4F29 /* TextView.swift */; };
 		1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */; };
 		1FDA25DB2BE6BD44004A4F29 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */; };
@@ -90,6 +93,9 @@
 		1FAFE14C2BE5433E005498C3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		1FAFE14E2BE54A29005498C3 /* NavigationView&Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView&Link.swift"; sourceTree = "<group>"; };
 		1FAFE1502BE54CF9005498C3 /* TabViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewNavigation.swift; sourceTree = "<group>"; };
+		1FCC7BF42BF4A463009069FD /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		1FCC7BF62BF4B000009069FD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1FCC7BF82BF4B071009069FD /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		1FDA25D62BE6AB40004A4F29 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		1FDA25D82BE6B9DD004A4F29 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		1FDA25DA2BE6BD44004A4F29 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 				1FE0B76F2BE8D78D00E45895 /* TexteditorView.swift */,
 				1FE0B7712BE8D99900E45895 /* DatePickerView.swift */,
 				1FE0B7732BE8DD8C00E45895 /* ColorPickerView.swift */,
+				1FCC7BF42BF4A463009069FD /* PickerView.swift */,
+				1FCC7BF62BF4B000009069FD /* MenuView.swift */,
+				1FCC7BF82BF4B071009069FD /* DisclosureGroupView.swift */,
 				1FE0B7752BE8DE6700E45895 /* ProgressSwiftUIView.swift */,
 				1FE0B7772BE8DF9700E45895 /* ProgressSwiftUI2View.swift */,
 				1FE0B7792BE8E09E00E45895 /* LinkView.swift */,
@@ -397,6 +406,7 @@
 				1FAFE1492BE4FB79005498C3 /* LazyVGridView.swift in Sources */,
 				1FAFE1232BE4E570005498C3 /* IconsView.swift in Sources */,
 				1FE0B7922BE950E300E45895 /* BindingPropertyWrapped.swift in Sources */,
+				1FCC7BF72BF4B000009069FD /* MenuView.swift in Sources */,
 				1FE0B7762BE8DE6700E45895 /* ProgressSwiftUIView.swift in Sources */,
 				1FE0B7802BE92D8500E45895 /* SliderView.swift in Sources */,
 				1FE0B7782BE8DF9700E45895 /* ProgressSwiftUI2View.swift in Sources */,
@@ -412,6 +422,8 @@
 				1FAFE14F2BE54A29005498C3 /* NavigationView&Link.swift in Sources */,
 				1FDCD6B82BEA32C000118821 /* EnviromentObjectView2.swift in Sources */,
 				1FE0B77A2BE8E09E00E45895 /* LinkView.swift in Sources */,
+				1FCC7BF92BF4B071009069FD /* DisclosureGroupView.swift in Sources */,
+				1FCC7BF52BF4A463009069FD /* PickerView.swift in Sources */,
 				1FDCD6C42BEA43EF00118821 /* AppStoragePropertyWrapper.swift in Sources */,
 				1FE0B7902BE9431500E45895 /* ObservableObjectProp.swift in Sources */,
 				1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */,

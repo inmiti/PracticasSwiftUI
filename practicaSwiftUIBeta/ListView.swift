@@ -44,6 +44,7 @@ struct ListView: View {
             }
         }
         .listStyle(SidebarListStyle()) //Estilos de listas predeterminados
+        .scrollContentBackground(.hidden) // Elimina el background predeterminado de una list. 
     }
 }
 

@@ -19,6 +19,7 @@ struct TextfieldView: View {
                 .padding(8)
                 .font(.headline)
                 .background(Color.gray.opacity(0.3))
+//                .foregroundColor(.red)
                 .cornerRadius(6)
                 .padding(.horizontal, 60)
                 .padding(.top, 40)
