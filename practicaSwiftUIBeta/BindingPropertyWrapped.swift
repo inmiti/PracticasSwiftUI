@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BindingPropertyWrapped: View {
     @State var counter: Int = 0 // Usar state cuando haya que mutar una propiedad que viene de la misma vista.
+    // Tambien lo usaremos para pasar a otra vista la propiedad. Se usa dentro del struct
     
     var body: some View {
         CounterView(counter: $counter)

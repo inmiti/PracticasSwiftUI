@@ -30,6 +30,9 @@ struct ListVideos: View {
     @StateObject private var videosViewModel = VideoViewModel() //Con este property wrapped se escucha, si lo instanciamos la primera vez se recomienda usar este en vez de @ObservedObject. Si necesito usar de nuevo videoViewModel en otra vista, en ese caso usaría @ObservedObject.
     var body: some View {
         NavigationView{
+            VStack{
+                RemoveVideos(videoViewModel: videosViewModel)
+            }
             List (videosViewModel.videosModel, id: \.self){ video in
                 Text(video)
             }
@@ -41,8 +44,16 @@ struct ListVideos: View {
     }
 }
 
+struct RemoveVideos: View {
+    @ObservedObject var videoViewModel: VideoViewModel // Reutilizo videoViewModel en esta vista también. Se actualiza en ambas vistas.
+    
+    var body: some View {
+        Text("SwiftBeta Remove Video")
+    }
+}
+
 final class VideoViewModel: ObservableObject {
-    @Published var videosModel: [String] = [] // PAra que el cambio en esta propiedad se sincroniza en las vistas que se use. Para ello ese viewModel ha de conformar el protocolo ObservableObject
+    @Published var videosModel: [String] = [] // PAra que el cambio en esta propiedad se sincroniza en las vistas que se use. Para ello ese viewModel ha de conformar el protocolo ObservableObject. Published se usa dentro de una class para pasar una propiedad a una o varias vistas.
     
     init() {
         videosModel = ["Aprende SwiftUI",

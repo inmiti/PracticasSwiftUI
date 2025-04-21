@@ -27,6 +27,10 @@ struct TextView: View {
             + Text("a mi canal para aprender a programar con swiftui si te gusta el vídeo dale like.")
                 .font(.body)
                 .foregroundColor(.blue)
+//                .fontWidth(.condensed)
+//                .fontWidth(.compressed)
+//                .fontWidth(.expanded)
+                .fontWidth(.standard)
             
             + Text(" Gracias por compartir")
                 .font(.headline)
@@ -36,6 +40,7 @@ struct TextView: View {
             Text(Date(), style: .timer) //Temporizador
             Text(Date().addingTimeInterval(3600), style: .timer) //Temporizador decremento
             Text(Date(), style: .time) //Hora actual
+                .font(.system(size: 28))
         }
         .padding()
     }

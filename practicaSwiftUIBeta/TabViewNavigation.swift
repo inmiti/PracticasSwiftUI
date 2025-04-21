@@ -29,7 +29,8 @@ struct TabViewNavigation: View {
         }
 //        .accentColor(.green)
         .frame(height:400)
-        .tabViewStyle(PageTabViewStyle()) //Aplicacion onboarding de la app
+        .tabViewStyle(DefaultTabViewStyle())
+//        .tabViewStyle(PageTabViewStyle()) //Aplicacion onboarding de la app
         
     }
 }

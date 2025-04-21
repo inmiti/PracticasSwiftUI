@@ -10,6 +10,7 @@ import SwiftUI
 struct StateView: View {
     
     @State var counter: Int = 0
+    // para mutar propiedades de nuestra vista 
     
     var body: some View {
         VStack (spacing: 20) {
