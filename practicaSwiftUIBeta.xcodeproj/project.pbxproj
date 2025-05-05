@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F06D6682DC91C2100719C75 /* ModificadoresPropios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F06D6672DC91C2100719C75 /* ModificadoresPropios.swift */; };
 		1FAFE0F72BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE0F62BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift */; };
 		1FAFE0F92BE4D4C8005498C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFE0F82BE4D4C8005498C3 /* ContentView.swift */; };
 		1FAFE0FB2BE4D4CA005498C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFE0FA2BE4D4CA005498C3 /* Assets.xcassets */; };
@@ -78,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F06D6672DC91C2100719C75 /* ModificadoresPropios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModificadoresPropios.swift; sourceTree = "<group>"; };
 		1FAFE0F32BE4D4C8005498C3 /* practicaSwiftUIBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicaSwiftUIBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAFE0F62BE4D4C8005498C3 /* practicaSwiftUIBetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaSwiftUIBetaApp.swift; sourceTree = "<group>"; };
 		1FAFE0F82BE4D4C8005498C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				1FC3AD5A2DB6B35700A15604 /* AsyncImageView.swift */,
 				1FFD62002DC136DA008269E5 /* SwipeActionsView.swift */,
 				1FBEB0452DC14075008D3B4B /* DevicesModel.swift */,
+				1F06D6672DC91C2100719C75 /* ModificadoresPropios.swift */,
 				1FDCD6BB2BEA362E00118821 /* StateObject&ObservableObject */,
 				1FDCD6BC2BEA366800118821 /* EnviromentObject */,
 				1FAFE0FA2BE4D4CA005498C3 /* Assets.xcassets */,
@@ -443,6 +446,7 @@
 				1FDCD6C42BEA43EF00118821 /* AppStoragePropertyWrapper.swift in Sources */,
 				1FE0B7902BE9431500E45895 /* ObservableObjectProp.swift in Sources */,
 				1FDA25D92BE6B9DD004A4F29 /* ButtonView.swift in Sources */,
+				1F06D6682DC91C2100719C75 /* ModificadoresPropios.swift in Sources */,
 				1FE0B7862BE932C800E45895 /* AlertView.swift in Sources */,
 				1FE0B7882BE9377E00E45895 /* ActionSheetView.swift in Sources */,
 				1FDA25DB2BE6BD44004A4F29 /* TextfieldView.swift in Sources */,

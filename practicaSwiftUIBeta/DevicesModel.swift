@@ -7,25 +7,25 @@
 
 import SwiftUI
 
-struct DevicesModel {
+struct DeviceModel {
     let name: String
     let systemImage: String
 }
 
-let arrayOfDevices = [
-    DevicesModel(name: "iphone", systemImage: "iphone"),
-    DevicesModel(name: "ipad", systemImage: "ipad"),
-    DevicesModel(name: "ipod", systemImage: "ipod"),
-    DevicesModel(name: "pc", systemImage: "pc"),
-    DevicesModel(name: "laptop", systemImage: "laptopcomputer"),
-    DevicesModel(name: "4k", systemImage: "4k.tv")
+let arrayOfDevice = [
+    DeviceModel(name: "iphone", systemImage: "iphone"),
+    DeviceModel(name: "ipad", systemImage: "ipad"),
+    DeviceModel(name: "ipod", systemImage: "ipod"),
+    DeviceModel(name: "pc", systemImage: "pc"),
+    DeviceModel(name: "laptop", systemImage: "laptopcomputer"),
+    DeviceModel(name: "4k", systemImage: "4k.tv")
 ]
 
-struct SwipeActionsView: View {
+struct SwipeActionView: View {
     var body: some View {
         NavigationView{
             List{
-                ForEach(arrayOfDevices, id: \.name) {device in
+                ForEach(arrayOfDevice, id: \.name) {device in
                     Label(device.name, systemImage: device.systemImage)
                         .swipeActions {
                             Button {
